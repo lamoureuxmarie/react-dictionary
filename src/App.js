@@ -1,6 +1,5 @@
 import './App.css';
 import Dictionary from './Dictionary.js'
-import axios from 'axios';
 
 function App() {
   return (
