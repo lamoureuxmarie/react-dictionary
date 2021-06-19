@@ -1,7 +1,7 @@
 import './App.css';
 import Dictionary from './Dictionary.js'
 import smiley from './distorted-smile.png'
-import background from './background-img.jpg'
+import background from './purple-background.jpg'
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         </h1>
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="word" />
       </main>
       <small className="App-footer text-center">
         This app was coded by Marie Lamoureux
