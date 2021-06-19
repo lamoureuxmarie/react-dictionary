@@ -17,7 +17,7 @@ function App() {
         </h1>
       </header>
       <main>
-        <Dictionary defaultKeyword="word" />
+        <Dictionary defaultKeyword="hello" />
       </main>
       <small className="App-footer text-center">
         This app was coded by Marie Lamoureux
