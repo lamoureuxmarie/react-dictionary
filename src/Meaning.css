@@ -1,0 +1,9 @@
+.Meaning h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Meaning em {
+    font-size: 14px;
+    color: rgb(120, 120, 120);
+}

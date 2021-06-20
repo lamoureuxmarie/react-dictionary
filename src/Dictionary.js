@@ -41,8 +41,8 @@ function search() {
         return (
     <div className="Dictionary">
     <section>
-    <form onSubmit={handleSubmit}>
-        <input type="search" onChange={handleKeywordChange} autoFocus="false" />
+    <form onSubmit={handleSubmit} autoFocus="false" >
+        <input type="search" onChange={handleKeywordChange} placeHolder="What word do you want to look up?"/>
     </form>
     </section>
     <Results results={results} />
