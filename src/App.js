@@ -1,7 +1,7 @@
 import './App.css';
 import Dictionary from './Dictionary.js'
-import smiley from './distorted-smile.png'
-import background from './purple-background.jpg'
+import smiley from './images/smiley-face.png'
+import background from './images/background-neonyellow.jpg'
 import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
@@ -19,9 +19,10 @@ function App() {
       <main>
         <Dictionary defaultKeyword="hello" />
       </main>
-      <small className="App-footer text-center">
-        This app was coded by Marie Lamoureux
-      </small>
+    <footer className="text-center mt-5 mb-5">
+    Open-source code by{" "}
+    <a className="git-link" hRef="https://github.com/lamoureuxmarie/react-dictionary" Target="_blank">Marie Lamoureux</a>
+    </footer>
     </div>
    
   );
