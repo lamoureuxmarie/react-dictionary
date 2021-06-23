@@ -21,7 +21,7 @@ function App() {
       </main>
     <footer className="text-center mt-5 mb-5">
     Open-source code by{" "}
-    <a className="git-link" hRef="https://github.com/lamoureuxmarie/react-dictionary" Target="_blank">Marie Lamoureux</a>
+    <a className="git-link" hRef="https://github.com/lamoureuxmarie/react-dictionary" Target="_blank" >Marie Lamoureux</a>
     </footer>
     </div>
    
