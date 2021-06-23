@@ -11,7 +11,7 @@ function App() {
       backgroundImage: `url(${background})`
        }}>
       <header className="App-header text-center mt-5 mb-4">
-        <img src={smiley} className="smiley" />       
+        <img src={smiley} className="smiley" alt="smiley-face"/>       
         <h1 className="text-center">
         Dictionary app
         </h1>
