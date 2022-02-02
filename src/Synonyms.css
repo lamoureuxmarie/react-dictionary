@@ -8,6 +8,10 @@
     padding-right: 10px;
     font-size: 14px;
     font-weight: 500;
-    color: #1b1a1a;
-    font-family: Orbitron, sans-serif;
+    color: #daddee;
+    font-family: 'Playfair Display', serif;
+}
+
+.Synonyms li:first-letter {
+    text-transform: uppercase;
 }
