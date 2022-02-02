@@ -42,8 +42,10 @@ function search() {
     <div className="Dictionary">
     <section>
     <form onSubmit={handleSubmit} autoFocus="false" >
-        <input type="search" onChange={handleKeywordChange} placeHolder="What word do you want to look up?" defaultValue={props.defaultKeyword}/>
-        <button typ="submit">Search Word</button>
+        <div className="row">
+        <input className="col-6" type="search" onChange={handleKeywordChange} placeHolder="What word do you want to look up?" defaultValue={props.defaultKeyword}/>
+        <button className="col-4" type="submit">Search Word</button>
+        </div>
     </form>
     </section>
     <Results results={results} />
