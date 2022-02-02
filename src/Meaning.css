@@ -3,12 +3,20 @@
     font-weight: bold;
 }
 
+.Meaning p {
+    color: #fff;
+}
+
+.Meaning p:first-letter {
+    text-transform: uppercase;
+}
+
 .Meaning em {
     font-size: 14px;
-    color: #aaaaaa;
+    color: #daddee;
 }
 
 .Meaning strong {
     font-size: 14px;
-    color: #aaaaaa;
+    color: #daddee;
 }
