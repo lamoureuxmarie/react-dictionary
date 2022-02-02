@@ -43,7 +43,7 @@ function search() {
     <section>
     <form onSubmit={handleSubmit} autoFocus="false" >
         <div className="row">
-        <input className="col-6" type="search" onChange={handleKeywordChange} placeHolder="What word do you want to look up?" defaultValue={props.defaultKeyword}/>
+        <input className="col-6" type="search" onChange={handleKeywordChange} placeHolder="Enter a word..." defaultValue={props.defaultKeyword}/>
         <button className="col-4" type="submit">Search Word</button>
         </div>
     </form>
