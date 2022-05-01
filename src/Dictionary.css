@@ -10,6 +10,7 @@
 }
 
 .Dictionary input {
+    text-transform: capitalize;
     width: 100%;
     padding: 30px 20px;
     border: solid 2px #161616;
