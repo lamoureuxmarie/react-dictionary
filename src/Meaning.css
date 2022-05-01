@@ -1,10 +1,11 @@
 .Meaning h3 {
-    font-size: 20px;
-    font-weight: bold;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: #808086;
 }
 
 .Meaning p {
-    color: #fff;
+    color: #161616;
 }
 
 .Meaning p:first-letter {
@@ -13,10 +14,10 @@
 
 .Meaning em {
     font-size: 14px;
-    color: #daddee;
+    color: #161616;
 }
 
 .Meaning strong {
     font-size: 14px;
-    color: #daddee;
+    color: #161616;
 }

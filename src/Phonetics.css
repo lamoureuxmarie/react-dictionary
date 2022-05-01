@@ -3,26 +3,27 @@
 }
 
 .Phonetics a {
-    color: #daddee;
-    border: solid 1px #daddee;
+    color: #161616;
+    border: solid 1px #161616;
     padding: 10px 20px;
     border-radius: 4px;
     font-size: 12px;
     font-weight: bold;
     margin-right: 10px;
+    box-shadow: 1px 1px 1px #161616;
 }
 
 .Phonetics svg {
-    color: #daddee;
+    color: #161616;
 }
 
 .Phonetics a:hover {
-    color: #daddee;
-    background-color: #daddee2c;
-    transition: all 150ms ease-in-out;
+    color: #161616;
+    box-shadow: none;
+    transition: all 150ms ease;
     text-decoration: none;
 }
 
 .Phonetics .text {
-    color: #daddee;
+    color: #161616;
 }

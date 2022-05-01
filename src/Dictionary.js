@@ -40,14 +40,12 @@ function search() {
     if (loaded) { 
         return (
     <div className="Dictionary">
-    <section>
     <form onSubmit={handleSubmit} autoFocus="false" >
         <div className="row">
-        <input className="col-6" type="search" onChange={handleKeywordChange} placeHolder="Enter a word..." defaultValue={props.defaultKeyword}/>
+        <input className="col-6" type="search" onChange={handleKeywordChange} placeHolder="Dictionary" defaultValue={props.defaultKeyword} autofocus="on"/>
         <button className="col-4" type="submit">Search Word</button>
         </div>
     </form>
-    </section>
     <Results results={results} />
 </div>
 );
