@@ -24,9 +24,8 @@ export default function Meaning(props) {
                      </div>
                     );
               })}
-   
-    
-        </div>
-    );       
-}
 
+
+        </div>
+    );
+}

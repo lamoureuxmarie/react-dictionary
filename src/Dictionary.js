@@ -19,14 +19,14 @@ function search() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
 }
-    
-  
+
+
     function handleSubmit(event) {
         event.preventDefault();
         search();
     }
 
-   
+
 
     function handleKeywordChange(event) {
         setKeyword(event.target.value);
@@ -37,14 +37,16 @@ function search() {
         search();
     }
 
-    if (loaded) { 
+    if (loaded) {
         return (
     <div className="Dictionary">
     <form onSubmit={handleSubmit} autoFocus="false" >
-        <div className="row">
-        <input className="col-6" type="search" onChange={handleKeywordChange} placeHolder="Dictionary" defaultValue={props.defaultKeyword} autofocus="on"/>
-        <button className="col-4" type="submit">Search Word</button>
+      <div className="row">
+        <div className="col-12 d-flex">
+          <input className="word" type="search" onChange={handleKeywordChange} placeHolder="Dictionary" defaultValue={props.defaultKeyword} autofocus="on"/>
+          <input className="search" type="submit" value="Search"/>
         </div>
+      </div>
     </form>
     <Results results={results} />
 </div>
@@ -54,4 +56,4 @@ function search() {
        return "Loading";
     }
 
-} 
+}

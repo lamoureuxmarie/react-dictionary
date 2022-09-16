@@ -1,7 +1,9 @@
 .Meaning h3 {
+  font-family: Helvetica, sans-serif;
     text-transform: capitalize;
-    font-weight: lighter;
-    color: #808086;
+    font-weight: bold;
+    opacity: 0.6;
+    letter-spacing: 0.1px;
 }
 
 .Meaning p {
